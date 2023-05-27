@@ -16,3 +16,10 @@ const c = 4;
 // const d; // declaring a constant without value makes no sense
 
 var d = 5; // NEVER use var
+// hoisting
+
+// block scoping
+{
+  var e = 6;
+}
+console.log(e);
